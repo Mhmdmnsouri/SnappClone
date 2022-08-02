@@ -1,0 +1,507 @@
+@media (min-width: 600.9px) {
+    .info-benefits {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important;
+    }
+
+    .first-ben-item {
+        width: 41.65% !important;
+        max-width: 41.65% !important;
+    }
+
+    .second-ben-item {
+        width: 41.65% !important;
+        max-width: 41.65% !important;
+    }
+
+    .third-ben-item {
+        width: 41.65% !important;
+        max-width: 41.65% !important;
+    }
+}
+
+@media (min-width: 840.9px) {
+
+    body {
+        padding-top: 98px !important;
+    }
+
+    header {
+        height: 96px !important;
+        padding: 0 4% !important;
+        justify-content: start !important;
+    }
+
+    header a img {
+        margin-left: 16px !important;
+    }
+
+    header i {
+        display: none !important;
+    }
+
+    .header-nav {
+        display: flex !important;
+    }
+
+    .header-nav ul a:first-child {
+        margin: 0 !important;
+    }
+
+
+    .intro {
+        flex-direction: row !important;
+        flex-direction: row-reverse !important;
+    }
+
+    .intro-img {
+        height: 28em !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .intro-info {
+        padding-right: 85px !important;
+    }
+
+    .intro-info h1 {
+        font-size: 36px !important;
+        line-height: 52px !important;
+        font-weight: 700 !important;
+    }
+
+    .intro-info p {
+        font-size: 17.08px !important;
+    }
+
+    form {
+        display: flex !important;
+        height: 56px !important;
+        align-items: center !important;
+    }
+
+    .web-app-btn {
+        display: flex !important;
+    }
+
+    .download-btn-container {
+        display: none !important;
+    }
+
+    .download-app {
+        display: flex !important;
+    }
+
+    .services-container {
+        padding-left: 85px !important;
+        padding-right: 85px !important;
+        padding-bottom: 40px !important;
+        height: unset !important;
+    }
+
+    .services-container h2 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+        font-size: 36px !important;
+        line-height: 52px !important;
+        font-weight: 700 !important;
+    }
+
+    .services a div p {
+        display: inline-block !important;
+        font-size: 14px !important;
+        text-align: center !important;
+        color: #a3a3a3 !important;
+    }
+
+    .show-more-button {
+        display: none !important;
+    }
+
+    .info-intro {
+        padding: 0 85px !important;
+        margin: 0 !important;
+    }
+
+    .swiper-container {
+        margin: 64px 85px 56px 85px !important;
+    }
+
+    .swiper-slide {
+        height: 23vw !important;
+    }
+
+    .info-benefits {
+        padding: 0 85px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .first-ben-item {
+        width: 33.32% !important;
+        max-width: 33.32% !important;
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+    }
+
+    .second-ben-item {
+        width: 33.32% !important;
+        max-width: 33.32% !important;
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+    }
+
+    .third-ben-item {
+        width: 33.32% !important;
+        max-width: 33.32% !important;
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+    }
+
+    .register-container {
+        padding-right: 85px !important;
+        padding-left: 85px !important;
+    }
+
+    .register-ben-cap-item {
+        padding-right: 16px !important;
+    }
+
+    footer {
+        flex-direction: row !important;
+        padding: 40px 4% 40px 4% !important;
+        align-items: baseline !important;
+    }
+
+    .footer-nav {
+        display: flex !important;
+        text-align: center !important;
+    }
+
+    .footer-nav a {
+        letter-spacing: -.2px !important;
+        font-size: 89% !important;
+        margin: 0 !important;
+        margin-right: 16px !important;
+    }
+
+    .footer-nav a:first-child {
+        margin-right: 0 !important;
+    }
+
+    footer div {
+        transform: scale(.9) !important;
+        margin: 0 -12px !important;
+    }
+}
+
+
+@media (min-width: 1000.9px) {
+    header {
+        padding: 0 5% !important;
+    }
+
+    header a img {
+        margin-left: 0 !important;
+    }
+
+    .header-nav {
+        width: 85% !important;
+    }
+
+    .header-nav ul a {
+        margin-right: 2% !important;
+        font-size: 15px !important;
+    }
+
+    .header-nav ul a:first-child {
+        margin-right: 3% !important;
+    }
+
+    .intro-info {
+        padding: 0 10% 0 24px !important;
+    }
+
+    .intro-img {
+        background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg") !important;
+        width: 127.5em !important;
+        height: 35.3em !important;
+        background-position: right center !important;
+    }
+
+    .intro-info h1 {
+        margin-bottom: 16px !important;
+    }
+
+    .intro-info p {
+        color: #fff !important;
+        font-size: 20px !important;
+        line-height: 35px !important;
+    }
+
+    .input-container {
+        width: 50% !important;
+    }
+
+    .web-app-btn {
+        width: 50% !important;
+    }
+
+    .download-app {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        justify-content: space-around !important;
+    }
+
+    .download-app a {
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+    }
+
+    .services-container {
+        padding: 0 10% 40px 10% !important;
+    }
+
+    .services a {
+        flex-direction: row !important;
+        max-width: 295px !important;
+        border-radius: 18px !important;
+        justify-content: flex-start !important;
+    }
+
+    .services a img {
+        width: 62px !important;
+        height: 62px !important;
+        margin: 0 8px !important;
+    }
+
+    .services a div {
+        padding: 8px 0 !important;
+        align-items: unset !important;
+    }
+
+    .services a div p,
+    h3 {
+        text-align: right !important;
+    }
+
+    .services a div h3 {
+        font-size: 100% !important;
+        margin: 4px 0 !important;
+    }
+
+    .info-container {
+        flex-direction: row !important;
+        position: relative;
+        min-height: 700px !important;
+        align-items: start !important;
+        margin-bottom: 40px !important;
+    }
+
+    .info-img {
+        width: 49.98% !important;
+        max-width: 49.98% !important;
+    }
+
+    .info-intro {
+        width: calc(calc(49.98% - 10%) - 40px) !important;
+        max-width: 49.98% !important;
+        padding-top: 8px !important;
+        padding-left: 10% !important;
+        padding-right: 40px !important;
+    }
+
+    .swiper-container {
+        margin: 64px 10% !important;
+    }
+
+    .info-benefits {
+        position: absolute !important;
+        bottom: 0 !important;
+        padding-right: 10% !important;
+        padding-left: 10% !important;
+        margin-top: 8px !important;
+        justify-content: center !important;
+        margin: auto;
+    }
+
+    .first-ben-item {
+        width: 25% !important;
+        max-width: 25% !important;
+        margin: 0 24px 0 24px !important;
+    }
+
+    .second-ben-item {
+        width: 25% !important;
+        max-width: 25% !important;
+        margin: 0 24px 0 24px !important;
+    }
+
+    .third-ben-item {
+        width: 25% !important;
+        max-width: 25% !important;
+        margin: 0 24px 0 24px !important;
+    }
+
+    .register-container {
+        padding-right: 10% !important;
+        padding-left: 10% !important;
+    }
+
+    .register-video {
+        margin: 40px 0 !important;
+    }
+
+    .register-ben {
+        flex-direction: row !important;
+    }
+
+    .register-ben-item {
+        flex-direction: row !important;
+        height: 200px !important;
+        width: calc(49% - 48px) !important;
+        margin-top: 32px !important;
+        padding: 0 24px !important;
+    }
+
+    .register-ben-item img {
+        width: 30% !important;
+        height: auto !important;
+    }
+
+    footer {
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+    }
+
+    .footer-nav a {
+        white-space: nowrap !important;
+        letter-spacing: -.1px !important;
+        font-size: 95% !important;
+        margin-right: 4% !important;
+    }
+
+    .footer-nav a:first-child {
+        margin-right: 4% !important;
+    }
+
+    footer div {
+        transform: none !important;
+        margin: 0 !important;
+    }
+}
+
+@media (min-width: 1364.9px) {
+    .intro-img {
+        height: 30em !important;
+    }
+}
+
+
+@media (min-width: 1371px) {
+    header {
+        padding: 0 13% !important;
+    }
+
+    header a img {
+        margin-left: 25px !important;
+    }
+
+    .header-nav ul a {
+        font-size: 16px !important;
+    }
+
+    .header-nav ul a:first-child {
+        margin-right: 0 !important;
+    }
+
+    .intro-info {
+        padding-right: 16% !important;
+        padding-left: 32px !important;
+    }
+
+    .web-app-btn button {
+        font-size: 17.08px !important;
+    }
+
+    .intro-img {
+        height: 33em !important;
+    }
+
+    .download-app {
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+
+    .download-app a {
+        margin: 0 !important;
+    }
+
+    .services-container {
+        padding: 0 13% 40px 13%!important;
+    }
+
+    .swiper-container {
+        margin-right: max(140px, 15%) !important;
+        margin-left: max(140px, 15%) !important;
+        margin-top: 80px!important;
+        margin-bottom: 80px!important;
+    }
+
+    .info-intro {
+        padding-left: max(140px, 15%) !important;
+        width: calc(calc(49.98% - 15%) - 40px) !important;
+    }
+
+    .info-benefits {
+        padding-left: max(140px, 15%) !important;
+        padding-right: max(140px, 15%) !important;
+
+    }
+
+    .first-ben-item {
+        margin: 0 32px 0 32px !important;
+
+    }
+
+    .second-ben-item {
+        margin: 0 32px 0 32px !important;
+    }
+
+    .third-ben-item {
+        margin: 0 32px 0 32px !important;
+    }
+
+    .register-container {
+        padding-right: max(140px, 15%) !important;
+        padding-left: max(140px, 15%) !important;
+    }
+
+    .register-ben-item {
+        padding: 0 32px !important;
+        width: calc(49% - 64px) !important;
+    }
+
+    footer {
+        padding-right: 11.5% !important;
+        padding-left: 11.5% !important;
+    }
+
+    .footer-nav a {
+        margin-right: 32px !important;
+        font-size: 100% !important;
+    }
+
+    .footer-nav a:first-child {
+        margin-right: 0 !important;
+    }
+
+}
+
+@media (min-width: 1448.9px) {
+    .intro-img {
+        height: 29em !important;
+    }
+}

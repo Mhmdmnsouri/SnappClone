@@ -1,0 +1,617 @@
+@font-face {
+  font-family: "IRANSansMobile";
+  src: url(../fonts/IRANSansMobile.ttf);
+}
+@font-face {
+  font-family: "IRANSansMobile_Light";
+  src: url(../fonts/IRANSansMobile_Light.ttf);
+}
+body {
+  font-family: "IRANSansMobile";
+  margin: 0;
+  padding: 0;
+  padding-top: 66px;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-160px {
+  width: 160px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.md-rl-pd {
+  padding-right: 85px;
+  padding-left: 85px;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  width: 27%;
+  max-width: 20vw;
+  margin: 16px;
+  line-height: 1.7;
+  padding: 8px;
+  color: #000;
+  border-radius: 24px;
+  background: #fff;
+  border-color: #e5e5e5;
+}
+
+.register-ben-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  padding: 24px;
+  border-radius: 18px;
+  background-color: #fff;
+}
+
+.footer-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  vertical-align: middle;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 64px;
+  width: calc(100% - 32px);
+  padding: 0 16px;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  z-index: 10000;
+}
+header i {
+  margin: 4px 3px 0 0;
+}
+header a img {
+  margin-top: 5px;
+}
+header .header-nav {
+  display: none;
+}
+header .header-nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header .header-nav ul a {
+  display: inline-block;
+  font-family: "IRANSansMobile_Light";
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 10px;
+  line-height: 24px;
+  color: #404040;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+main .intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+main .intro .intro-img {
+  height: 40vh;
+  background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .intro .intro-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 24px;
+  background-color: #21AA58;
+}
+main .intro .intro-info h1 {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+main .intro .intro-info p {
+  font-family: "IRANSansMobile_Light";
+  font-size: 17.08px;
+  line-height: 29px;
+  padding: 14px 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.881);
+}
+main .intro .intro-info .download-btn-container {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 2.5em;
+}
+main .intro .intro-info .download-btn-container button {
+  font-family: "IRANSansMobile";
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  min-height: 48px;
+  line-height: 1;
+  color: rgb(64, 64, 64);
+  background-color: rgb(255, 255, 255);
+}
+main .intro .intro-info form {
+  display: none;
+}
+main .intro .intro-info form .input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  height: 85%;
+  width: 24vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+main .intro .intro-info form .input-container input {
+  padding: 0 8px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: inherit;
+}
+main .intro .intro-info form .input-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+main .intro .intro-info form .input-container .control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0px 8px;
+  user-select: none;
+}
+main .intro .intro-info form .input-container .control span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  fill: rgb(255, 255, 255);
+  background-color: rgb(235, 235, 235);
+}
+main .intro .intro-info form .input-container .control svg {
+  display: none;
+}
+main .intro .intro-info form button {
+  font-family: "IRANSansMobile";
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  width: 25%;
+  padding: 10px;
+  margin: 0;
+  margin-right: 16px;
+  color: #00d16f;
+  background-color: #fff;
+}
+main .intro .intro-info .web-app-btn {
+  display: none;
+  width: 24vw;
+  margin-top: 40px;
+  text-align: right;
+  text-decoration: none;
+}
+main .intro .intro-info .web-app-btn button {
+  font-family: "IRANSansMobile";
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  height: 48px;
+  width: 100%;
+  padding: 8px 0;
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  transition: all 100ms ease 0s;
+}
+main .intro .intro-info .web-app-btn button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+main .download-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  height: 30vh;
+  display: none;
+}
+main .download-app a {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+main .services-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: start;
+  height: 36em;
+  margin-bottom: 40px;
+  background-color: #f2f5f8;
+  overflow: hidden;
+}
+main .services-container h2 {
+  font-size: 20.3px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0;
+  color: #404040;
+}
+main .services-container .services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: unset;
+  flex-wrap: wrap;
+}
+main .services-container .services img {
+  width: 48px;
+  height: 48px;
+}
+main .services-container .services div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .services-container .services h3 {
+  font-size: 14px;
+  margin: 0;
+  color: #404040;
+}
+main .services-container .services p {
+  display: none;
+  margin: 0;
+  color: #404040;
+}
+main .services-container .services .show-more-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 26%;
+  bottom: 0px;
+  align-items: flex-end;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(0, 212, 255, 0) 100%);
+}
+main .services-container .services .show-more-button button {
+  font-size: 14px;
+  position: relative;
+  height: 48px;
+  max-width: 100%;
+  margin-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid rgb(0, 209, 112);
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 100ms ease 0s;
+  font-family: inherit;
+  color: rgb(0, 209, 112);
+  background-color: #fff;
+  cursor: pointer;
+}
+main .swiper-container {
+  margin: 40px 24px 40px 24px;
+  direction: ltr;
+  border-radius: 9px;
+}
+main .swiper-container .swiper-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vw;
+  min-width: 100%;
+  max-width: 100%;
+  background-position: center center;
+  cursor: pointer;
+}
+main .swiper-container .swiper-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: unset;
+  bottom: 7px;
+  left: calc(50% - 33px);
+  padding: 5px 5px !important;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+main .swiper-container .swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  margin: 0 3px !important;
+  padding: 2px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.31);
+  cursor: pointer;
+  opacity: 1;
+}
+main .swiper-container .swiper-pagination-bullet-active {
+  background: #fff;
+}
+main .swiper-container .food-slide {
+  background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/slider/Food.jpg");
+}
+main .swiper-container .market-slide {
+  background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/slider/Market.jpg");
+}
+main .swiper-container .register-slide {
+  background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/slider/Driver.jpg");
+}
+main .swiper-container .club-slide {
+  background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/slider/Club.jpg");
+}
+main .info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 700px;
+}
+main .info-container .info-img {
+  background-image: url("https://web-cdn.snapp.ir/snapp-website/images/homepage/super-app.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  min-height: 450px;
+  background-position: left center;
+}
+main .info-container .info-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: unset;
+  text-align: right;
+  margin: 0 16px;
+}
+main .info-container .info-intro h2 {
+  font-size: 22.12px;
+  margin: 24px 0;
+  color: #404040;
+}
+main .info-container .info-intro p {
+  font-family: "IRANSansMobile_Light";
+  font-size: 14px;
+  margin: 8px 0;
+  line-height: 23.8px;
+  color: #404040;
+}
+main .info-container .info-benefits {
+  margin: 8px 16px 0 16px;
+}
+main .info-container .first-ben-item {
+  margin-top: 24px;
+}
+main .info-container .first-ben-item div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #f2f5f8;
+  border-radius: 18px;
+  overflow: hidden;
+}
+main .info-container .first-ben-item p {
+  font-family: "IRANSansMobile_Light";
+  font-size: 11.9px;
+  line-height: 20px;
+  margin: 0;
+  color: #404040;
+}
+main .info-container .second-ben-item {
+  margin-top: 24px;
+}
+main .info-container .second-ben-item div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #f2f5f8;
+  border-radius: 18px;
+  overflow: hidden;
+}
+main .info-container .second-ben-item p {
+  font-family: "IRANSansMobile_Light";
+  font-size: 11.9px;
+  line-height: 20px;
+  margin: 0;
+  color: #404040;
+}
+main .info-container .third-ben-item {
+  margin-top: 24px;
+}
+main .info-container .third-ben-item div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #f2f5f8;
+  border-radius: 18px;
+  overflow: hidden;
+}
+main .info-container .third-ben-item p {
+  font-family: "IRANSansMobile_Light";
+  font-size: 11.9px;
+  line-height: 20px;
+  margin: 0;
+  color: #404040;
+}
+main .register-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+  padding: 40px 16px 40px 16px;
+  background: #f2f5f8;
+  color: #404040;
+}
+main .register-container h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  margin: 0;
+}
+main .register-container p {
+  font-family: "IRANSansMobile_Light";
+  font-size: 20.3px;
+  line-height: 34.8px;
+  padding: 16px 0;
+  margin: 0;
+}
+main .register-container a button {
+  font-family: "IRANSansMobile";
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 17.08px;
+  height: 48px;
+  margin: 16px 0;
+  padding: 0 32px;
+  border: none;
+  color: #fff;
+  background-color: rgb(0, 209, 112);
+  transition: all 100ms ease 0s;
+}
+main .register-container a button:hover {
+  background-color: rgb(0, 219, 117);
+}
+main .register-container .register-video {
+  margin: 24px 0;
+}
+main .register-container .register-video video {
+  border-radius: 9px;
+}
+main .register-container .register-ben {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .register-container .register-ben .register-ben-cap-item {
+  text-align: right;
+}
+main .register-container .register-ben .register-ben-cap-item h4 {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 700;
+  line-height: 28px;
+}
+main .register-container .register-ben .register-ben-cap-item p {
+  font-family: "IRANSansMobile_Light";
+  font-size: 14px;
+  padding: 0;
+  line-height: 24.5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+footer .footer-nav {
+  text-align: center;
+}
+footer .footer-nav a {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  color: #3f3f3f;
+  font-family: "IRANSansMobile_Light";
+  height: 32px;
+  margin: 16px;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}/*# sourceMappingURL=main.css.map */
